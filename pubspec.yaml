@@ -1,0 +1,30 @@
+name: walmart_application
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter # Add this line for QR code scanning functionality
+  cupertino_icons: ^1.0.6
+  qr_code_scanner: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/groceries.png
+    - assets/milk.png
+    - assets/snacks.png
+    - assets/utensils.png
+    - assets/cleaning supplies.png
+    - assets/electronics.png
+    - assets/clothes.png
